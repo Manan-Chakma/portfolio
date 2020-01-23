@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="formValidation.css">
+
+
+    <script src="https://kit.fontawesome.com/bba7abbb97.js" crossorigin="anonymous"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">
+            Create Account
+        </h2>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="example007" id="user_name">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="example007@example.com" id="user_email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Passowrd</label>
+                <input type="password" placeholder="password" id="user_password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="confirm password" id="user_confirm_password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+            <small id="success-text">Success</small>
+        </form>
+    </div>
+    <script src="formValidation.js"></script>
+</body>
+</html>
