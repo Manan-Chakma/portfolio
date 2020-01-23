@@ -64,7 +64,7 @@ function game(userChoice){
             break;
         }
 
-        case "rs":
+        case "sr":
         case "rp":
         case "ps":
             {
